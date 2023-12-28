@@ -2,16 +2,16 @@
 Timescale Ubuntu Installer<br/><br/>
 A Shell Script to Install PostgreSQL 16 & Timescale 2.13 on Ubuntu 22.04<br/><br/>
 Upon install you will enter psql terminal, then follow the below steps:<br/><br/>
-1) Set the password for the `postgres` user:<br/>
+1) Set the password for the "postgres" user:<br/>
 `\password postgres`<br/><br/>
 
 2) Exit from PostgreSQL:<br/>
 `\q`<br/><br/>
 
-3) Use `psql` client to connect to PostgreSQL:<br/>
+3) Use "psql" client to connect to PostgreSQL:<br/>
 `psql -U postgres -h localhost`<br/><br/>
 
-4) At the `psql` prompt, create an empty database. Our database is called `tsdb`:<br/>
+4) At the "psql" prompt, create an empty database. Our database is called "tsdb":<br/>
 `CREATE database tsdb;`<br/><br/>
 
 5) Connect to the database you created:<br/>
