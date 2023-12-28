@@ -23,4 +23,6 @@ sudo apt-get update
 sudo apt-get install postgresql-client
 
 sudo systemctl restart postgresql
+
+sudo -u postgres psql
 ```
