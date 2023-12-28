@@ -5,7 +5,7 @@ Upon install you will enter psql terminal, then follow the below steps:<br/><br/
 1) Set the password for the `postgres` user:<br/>
 `\password postgres`<br/><br/>
 
-2)Exit from PostgreSQL:<br/>
+2) Exit from PostgreSQL:<br/>
 `\q`<br/><br/>
 
 3) Use `psql` client to connect to PostgreSQL:<br/>
