@@ -1,5 +1,5 @@
 # timescale-installation
-## *Ubuntu 22.04**<br/><br/>
+## *Ubuntu 22.04*<br/><br/>
 A Shell Script to Install PostgreSQL 16 & Timescale 2.13 on Ubuntu 22.04<br/><br/>
 Upon install you will enter psql terminal, then follow the below steps:<br/><br/>
 1) Set the password for the "postgres" user:<br/>
