@@ -1,5 +1,5 @@
 # timescale-ubuntu-installation
-A Shell Script to Install PostgreSQL & Timescale on Ubuntu
+A Shell Script to Install PostgreSQL 16 & Timescale 2.13 on Ubuntu 22.04
 
 ```
 sudo apt install gnupg postgresql-common apt-transport-https lsb-release wget
