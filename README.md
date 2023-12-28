@@ -2,6 +2,10 @@
 A Shell Script to Install PostgreSQL 16 & Timescale 2.13 on Ubuntu 22.04
 
 ```
+sudo apt update
+
+sudo apt upgrade
+
 sudo apt install gnupg postgresql-common apt-transport-https lsb-release wget
 
 sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
