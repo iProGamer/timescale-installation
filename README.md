@@ -21,4 +21,6 @@ sudo apt install timescaledb-2-postgresql-16
 sudo apt-get update
 
 sudo apt-get install postgresql-client
+
+sudo systemctl restart postgresql
 ```
