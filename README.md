@@ -1,5 +1,5 @@
 # timescale-ubuntu-installation
-A shell script to install Postgres + Timescale on Ubuntu
+A Shell Script to Install PostgreSQL & Timescale on Ubuntu
 
 ```
 sudo apt install gnupg postgresql-common apt-transport-https lsb-release wget<br /><br />
