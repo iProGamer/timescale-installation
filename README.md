@@ -21,6 +21,8 @@ sudo apt-get update
 
 sudo apt-get install postgresql-client
 
+sudo sh -c 'echo "shared_preload_libraries = '\''timescaledb'\''" >> /etc/postgresql/16/main/postgresql.conf'
+
 sudo systemctl restart postgresql
 
 sudo -u postgres psql
